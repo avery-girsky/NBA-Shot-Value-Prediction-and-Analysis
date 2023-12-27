@@ -15,24 +15,24 @@ After merging datasets and adding features, we used the following in our models.
 
 **Feature           Description                                                          Type**
 
-POSITION GROUP    Guard, forward, or center                                            object
-SHOT TYPE         2-point shot or 3-point shot                                         object
-BASIC ZONE        Description of the area on the court                                 object
-LOC X             Horizontal component of court location                               float
-LOC Y             Vertical component of court location                                 float
-SHOT DISTANCE     Distance from the hoop                                               integer
-ACTION GROUP      Description of how shot was attempted (i.e. dunk shot)               object
-TIME LEFT QUARTER Seconds remaining in the quarter                                     integer
-TIME LEFT GAME    Seconds remaining in the game                                        integer
-DEFENSIVE RATING  Opposing team season-long defensive rating                           float
-BUZZER            Is shot taken in the last 5 seconds of a quarter                     boolean
-CLUTCH            Is shot taken in the last 2 minutes of the game                      boolean
-HOME              Is shot taker on the home team                                       boolean
+- POSITION GROUP    Guard, forward, or center                                            object
+- SHOT TYPE         2-point shot or 3-point shot                                         object
+- BASIC ZONE        Description of the area on the court                                 object
+- LOC X             Horizontal component of court location                               float
+- LOC Y             Vertical component of court location                                 float
+- SHOT DISTANCE     Distance from the hoop                                               integer
+- ACTION GROUP      Description of how shot was attempted (i.e. dunk shot)               object
+- TIME LEFT QUARTER Seconds remaining in the quarter                                     integer
+- TIME LEFT GAME    Seconds remaining in the game                                        integer
+- DEFENSIVE RATING  Opposing team season-long defensive rating                           float
+- BUZZER            Is shot taken in the last 5 seconds of a quarter                     boolean
+- CLUTCH            Is shot taken in the last 2 minutes of the game                      boolean
+- HOME              Is shot taker on the home team                                       boolean
 
 **Outcome**
 
-SHOT OUTCOME      False if shot missed, True if shot made                              boolean
-SHOT VALUE        0 if shot missed, 2 if made two-pointer, and 3 if made three-pointer integer
+- SHOT OUTCOME      False if shot missed, True if shot made                              boolean
+- SHOT VALUE        0 if shot missed, 2 if made two-pointer, and 3 if made three-pointer integer
 
 
 ## Code
